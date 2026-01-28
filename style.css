@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #fdfdfd;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 30px;
+    background: linear-gradient(120deg, #ffe0b2, #e1f5fe);
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    color: #ff5722;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+/* SERVICES */
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.service-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    background: #fff3e0;
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+/* PORTFOLIO */
+.portfolio {
+    padding: 50px;
+    background: #f1f8e9;
+    text-align: center;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* CONTACT */
+.contact {
+    background: #263238;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
